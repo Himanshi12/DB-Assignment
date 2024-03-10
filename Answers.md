@@ -31,7 +31,7 @@ This is typically represented by a foreign key in the "Product" table that refer
 We ensure that each product in the "Product" table has a valid category assigned to it as it is referenced to id in "Product_Category" table
 which is primay key of the "Product_Category" table which should be valid and unique.
 
-To ensure that each product in the "Product" table has a valid category assigned to it, you can implement referential integrity constraints in your database schema.
+To ensure that each product in the "Product" table has a valid category assigned to it, we can implement referential integrity constraints in your database schema.
 Referential integrity constraints enforce relationships between tables by ensuring that values in one table's foreign key columns refer to existing primary key values in another table.
 We could achieve this by :
 Foreign Key Constraint: In the "Product" table, include a foreign key column that references the primary key of the "Product_Category" table.
