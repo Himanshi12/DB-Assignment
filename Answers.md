@@ -1,4 +1,5 @@
 1. Explain the relationship between the "Product" and "Product_Category" entities from the above diagram.
+
 In Products table, we have all products data having attributes particular id(unique id assigned to each particular product) Primay_Key,
 name(Name of the product),
 description(descriptionof the product),
