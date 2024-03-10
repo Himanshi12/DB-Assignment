@@ -20,8 +20,8 @@ CREATE TABLE product (
   modified_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   deleted_at DATETIME,
   FOREIGN KEY (category_id) REFERENCES product_category(id),
-  FOREIGN KEY (inventory_id) REFERENCES product_inventory(inventory_id),
-  FOREIGN KEY (discount_id) REFERENCES discount(discount_id)
+  FOREIGN KEY (inventory_id) REFERENCES product_inventory(id),
+  FOREIGN KEY (discount_id) REFERENCES discount(id)
 );
 
 CREATE TABLE product_inventory (
